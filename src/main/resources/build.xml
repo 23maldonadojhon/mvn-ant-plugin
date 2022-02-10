@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<project>
+
+    <property name="version" value="1.0.0"/>
+
+    <target name="prueba">
+        <echo message="==================INICIO========================="/>
+        <echo message="mensaj de prueba desde prperty: ${version}"/>
+        <echo message="ANT VERSION ${ant.version}"/>
+        <echo message="==================END========================="/>
+    </target>
+
+</project>
+
